@@ -25,15 +25,15 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/netbox-community/go-netbox/v3/netbox/client/circuits"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/dcim"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/extras"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/ipam"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/status"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/tenancy"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/users"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/virtualization"
-	"github.com/netbox-community/go-netbox/v3/netbox/client/wireless"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/circuits"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/dcim"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/extras"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/ipam"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/status"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/tenancy"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/users"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/virtualization"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/client/wireless"
 )
 
 // Default net box API HTTP client.

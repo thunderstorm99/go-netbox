@@ -31,7 +31,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/netbox-community/go-netbox/v3/netbox/models"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/models"
 )
 
 // NewExtrasWebhooksUpdateParams creates a new ExtrasWebhooksUpdateParams object,

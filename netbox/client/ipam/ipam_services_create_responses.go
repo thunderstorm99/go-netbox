@@ -27,7 +27,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/netbox-community/go-netbox/v3/netbox/models"
+	"github.com/thunderstorm99/go-netbox/v3/netbox/models"
 )
 
 // IpamServicesCreateReader is a Reader for the IpamServicesCreate structure.

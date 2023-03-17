@@ -1289,7 +1289,7 @@ func (m *Interface) contextValidateLastUpdated(ctx context.Context, formats strf
 
 func (m *Interface) contextValidateLinkPeers(ctx context.Context, formats strfmt.Registry) error {
 
-	if err := validate.ReadOnly(ctx, "link_peers", "body", []*string(m.LinkPeers)); err != nil {
+	if err := validate.ReadOnly(ctx, "link_peers", "body", []*interface{}(m.LinkPeers)); err != nil {
 		return err
 	}
 

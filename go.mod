@@ -1,4 +1,4 @@
-module github.com/netbox-community/go-netbox/v3
+module github.com/thunderstorm99/go-netbox/v3
 
 go 1.20
 

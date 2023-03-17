@@ -124,7 +124,9 @@ type Interface struct {
 	// Return the appropriate serializer for the link termination model.
 	//
 	// Read Only: true
+	LinkPeers []*interface{} `json:"link_peers"`
 
+	// Link peers type
 	// Read Only: true
 	LinkPeersType string `json:"link_peers_type,omitempty"`
 

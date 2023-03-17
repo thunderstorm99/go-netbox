@@ -55,7 +55,7 @@ type Interface struct {
 	// Return the appropriate serializer for the type of connected object.
 	//
 	// Read Only: true
-	ConnectedEndpoints []*string `json:"connected_endpoints"`
+	ConnectedEndpoints []*interface{} `json:"connected_endpoints"`
 
 	// Connected endpoints reachable
 	// Read Only: true
@@ -1144,7 +1144,7 @@ func (m *Interface) contextValidateCableEnd(ctx context.Context, formats strfmt.
 
 func (m *Interface) contextValidateConnectedEndpoints(ctx context.Context, formats strfmt.Registry) error {
 
-	if err := validate.ReadOnly(ctx, "connected_endpoints", "body", []*string(m.ConnectedEndpoints)); err != nil {
+	if err := validate.ReadOnly(ctx, "connected_endpoints", "body", []*interface{}(m.ConnectedEndpoints)); err != nil {
 		return err
 	}
 
